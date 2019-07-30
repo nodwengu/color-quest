@@ -1,0 +1,31 @@
+select {
+	font-size: 1em;
+	padding: 1em;
+	line-height: 2;
+}
+
+body {
+	background-color: grey;
+}
+
+button {
+	font-size: 1em;
+}
+
+.container {
+	padding: 1em;
+	width: 25em;
+	margin: auto;
+	background-color: lightgreen;
+	border: 0.1em solid;
+	border-radius: 0.2em;
+}
+
+.error {
+	color: crimson;
+	font-weight: 800;
+}
+
+.row {
+	margin-bottom: 1em;
+}

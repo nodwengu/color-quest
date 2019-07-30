@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/shapes.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+	<div class="container">
+		<h1>Color quest</h1>
+		<div>
+			<div class="row">
+				<i>Select a color, number to add for the square that's to be added. 
+					A color & number combination is unique. 
+					You can filter for numbers & colors, or one or the other.
+				</i>
+			</div>
+			<div class="row error">
+				This is not working.
+			</div>
+			<div class="row">
+				<select class="selectColor">
+					<option value="">Select a color</option>
+					<option value="blue">Blue</option>
+					<option value="green">Green</option>
+					<option value="red">Red</option>
+					<option value="yellow">Yellow</option>
+					<option value="orange">Orange</option>
+				</select>
+			</div>
+			<div class="row">
+				<select class="selectNumber">
+					<option value="">Select a number</option>
+					<option value="blue">1</option>
+					<option value="green">2</option>
+					<option value="red">3</option>
+					<option value="yellow">4</option>
+					<option value="orange">5</option>
+					<option value="orange">6</option>
+					<option value="orange">7</option>
+					<option value="orange">8</option>
+					<option value="orange">9</option>
+				</select>
+			</div>
+			<div>
+				<button class="addBtn">Add</button>
+				<button class="filterBtn">Filter</button>
+			</div>
+		</div>
+
+		<div class="shapes">
+			<div class="shape square blue">
+				<div class="number">1</div>
+			</div>
+			<div class="shape square green">
+			</div>
+			<!-- <div class="shape circle red">
+			</div> -->
+			<div class="shape square orange">
+			</div>
+			<!-- <div class="shape triangle orange-triangle orange">
+						<div class="number">9</div>
+				</div> -->
+			<div class="shape square red">
+				<div class="number">1</div>
+			</div>
+			<div class="shape square green">
+			</div>
+			<!-- <div class="shape circle red">
+						<div class="number">1</div>
+				</div> -->
+			<div class="shape square yellow">
+			</div>
+		</div>
+
+	</div>
+	<script src="js/colors.dom.js"></script>
+</body>
+
+</html>
