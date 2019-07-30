@@ -19,3 +19,5 @@ You need to change the widget to be able to:
 * filter for a selected color or number,
 * or filter for a selected color & number.
 
+Be sure to test your application logic.
+
