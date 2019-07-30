@@ -12,10 +12,9 @@ You can see it online at: https://codex-academy.github.io/color-quest/
 
 You need to change the widget to be able to:
 
-* add a square of the selected color & number,
-* if no number or color is selected not square should be added,
+* add a square with the selected color & number,
+* if no number or color is selected nothing should be added (display message),
 * a color & number combination is unique - it can only be added once,
-* containing the selected number,
 * filter for a selected color or number,
 * or filter for a selected color & number.
 
