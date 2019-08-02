@@ -68,7 +68,7 @@ button {
     width : 2em;
     height : 2em;
     padding : 0.25em;
-    margin : 0.25em;
+    margin : 0.3em;
     float : left;
     text-align: center;
     font-weight : lighter;
@@ -143,4 +143,8 @@ button {
   margin-top: 0.5em;
   margin-left: -0.10em;
   text-align: center;
+}
+
+.hidden {
+  display: none;
 }

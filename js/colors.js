@@ -1,7 +1,21 @@
-describe("The ColorQuest function", function(){
+function ColorQuestManager() {
+	const shapes = []; 
 
-	it("should be ...", function(){
+	function addShape(color, number) {
+		const shape = {
+			color,
+			number
+		};
+		shapes.push(shape)
+	}
 
-	});
+	function getShapes() {
+		return shapes
+	}
+	
 
-});
+	return {
+		addShape,
+		getShapes,
+	}
+}
